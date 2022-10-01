@@ -8,4 +8,4 @@
 function share(slices, people) {
     console.log(`Each person gets ${slices / people} slices of pizza`);
 }
-console.log(share(34, 7));
+share(34, 7);

@@ -11,5 +11,7 @@ function activity(exercise) {
     } else if (exercise === "swimming") {
         console.log("Today's exercise: " + exercise);
     }
+    
 }
-console.log(activity("swimming"));
+
+activity("swimming");
