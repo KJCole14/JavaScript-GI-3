@@ -1,7 +1,6 @@
-console.log("Hello World!");
-
 //Example of a closure 
 //Makes it so data can't be accessed unless using the function said data belongs to 
+
 // let name = 'John';
 
 // function greeting() { 
@@ -12,7 +11,8 @@ console.log("Hello World!");
 
 function person() {
     const pii = {
-        name: "James",
+        fname: "James",
         ssn: 123456789
     };
+    return pii;
 };
