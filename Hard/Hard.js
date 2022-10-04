@@ -10,9 +10,11 @@
 // }
 
 function person() {
-    const pii = {
-        fname: "James",
+    let pii = {
+        fName: "James",
         ssn: 123456789
     };
     return pii;
 };
+let person1 = person();
+console.log(person1.fName);
